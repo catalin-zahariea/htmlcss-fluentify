@@ -18,3 +18,101 @@ img {
 body {
     font-family: 'Roboto', sans-serif;
 }
+
+.wrapper {
+    width: 80%;
+    margin: auto;
+}
+
+.button {
+    border-radius: 5px;
+    border: 1px solid #7CBB01;
+    background-color: #7CBB01;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.col {
+    float: left;
+    width: 30%;
+}
+
+.col-center {
+    margin: 0 5%;
+}
+
+/* COMMON END */
+
+/* HEADER */
+
+header {
+    height: 500px;
+    background-color: #0C325A;
+    background-image: url(../img/background-header.png);
+    background-repeat: no-repeat;
+    background-size: 1000px;
+    background-position: 130% 115%;
+}
+
+.header-logo {
+    width: 100px;
+}
+
+header ul {
+    list-style: none;
+}
+
+header li {
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+header a {
+    font-size: 10px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+
+header nav {
+    padding-top: 10px;
+}
+
+header a:hover {
+    color: #7CBB01;
+    text-shadow: 1px 1px 3px black;
+}
+
+.col-header-logo {
+    width: 10%;
+}
+
+.col-header-menu {
+    width: 40%;
+}
+
+.col-header-login {
+    width: 40%;
+}
+
+.button-empty {
+    border: 1px solid white;
+    background-color: #0C325A;
+    padding: 2px 5px;
+
+}
+
+.button-header {
+    padding: 2px 10px;
+}
+
+.header-login {
+    text-align: right;
+}
+
+/* HEADER END */
