@@ -119,15 +119,15 @@ header a:hover {
 
 .col-header-logo {
     margin-top: 8px;
-    width: 8%;
+    width: 10%;
 }
 
 .col-header-menu {
-    width: 47%;
+    width: 50%;
 }
 
 .col-header-login {
-    width: 35%;
+    width: 40%;
     text-align: right;
 }
 
