@@ -50,6 +50,12 @@ body {
     color: #858585;
 }
 
+h1 {
+    font-size: 36px;
+    color: white;
+    margin-bottom: 20px;
+}
+
 h2 {
     font-size: 36px;
 }
@@ -122,17 +128,18 @@ header a:hover {
 
 .col-header-login {
     width: 35%;
+    text-align: right;
 }
 
 .button-empty {
     border: 1px solid white;
     background-color: #0C325A;
-    padding: 2px 5px;
+    padding: 1px 10px;
 
 }
 
 .button-header {
-    padding: 2px 10px;
+    padding: 1px 10px;
 }
 
 .header-login {
@@ -147,12 +154,6 @@ header a:hover {
 
 .header-teaser .button {
     padding: 10px 20px;
-}
-
-.header-teaser h1 {
-    font-size: 36px;
-    color: white;
-    margin-bottom: 20px;
 }
 
 /* HEADER END */
@@ -236,10 +237,7 @@ footer .col {
 
 footer .col:last-child {
     padding-top: 50px;
-}
-
-footer .col .span, select, .button {
-    margin-left: 30px;
+    text-align: right;
 }
 
 footer select {
@@ -248,10 +246,26 @@ footer select {
     font-size: 16px;
     font-weight: 300;
     width: 100px;
+    margin: 0 50px;
 }
 
 footer .button {
-    padding: 10px 20px;
+    padding: 20px 20px;
+    font-size: 10px;
+    color: white;
+    text-transform: uppercase;
+}
+
+.button-fixed {
+    position: fixed;
+    bottom: 0;
+    right: 15%;
+    border-radius: 5px 5px 0 0;
+}
+
+.button-fixed a {
+    text-decoration: none;
+    color: white;
 }
 
 /* FOOTER END */
