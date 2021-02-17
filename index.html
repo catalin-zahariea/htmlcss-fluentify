@@ -16,7 +16,7 @@
         <div class="wrapper">
             <nav class="clearfix">
                 <!-- Header Logo -->
-                <div class="header-logo col col-header-logo">
+                <div class="col col-header-logo">
                     <img src="img/logo.svg" alt="Logo">
                 </div>
 
@@ -48,11 +48,11 @@
                         </li>
 
                         <li>
-                            <span class="button button-empty"><a href="#">Login</a></span>
+                            <a class="button button-empty" href="#">Login</a>
                         </li>
                         
                         <li>
-                            <span class="button button-header"><a href="#">Struttura un piano</a></span>
+                            <a class="button button-header" href="#">Struttura un piano</a>
                         </li>
                     </ul>
                 </div>
@@ -60,7 +60,7 @@
 
             <div class="header-teaser">
                 <h1>Scegli l'inglese studiato per i professionisti</h1>
-                <a href="#"><span class="button">Struttura un piano</span></a>
+                <a class="button" href="#">Struttura un piano</a>
             </div>
         </div>
     </header>
@@ -81,7 +81,7 @@
         <section class="second-section">
             <div class="wrapper clearfix">
                 <div class="col">
-                    <div class="second-section-img img-object-fit">
+                    <div class="second-section-img">
                         <img src="img/profile.svg" alt="Mountain">
                     </div>
                     <h4>Piano formativo configurato sul proprio livello</h4>
@@ -90,7 +90,7 @@
                 </div>
 
                 <div class="col col-center">
-                    <div class="second-section-img img-object-fit">
+                    <div class="second-section-img">
                         <img src="img/computer.svg" alt="Computer">
                     </div>
                     <h4>Affiancamento costante del tutor</h4>
@@ -99,7 +99,7 @@
                 </div>
 
                 <div class="col">
-                    <div class="second-section-img img-object-fit">
+                    <div class="second-section-img">
                         <img src="img/doc.svg" alt="Document">
                     </div>
                     <h4>Monitora i tuoi progressi costantemente</h4>
@@ -113,18 +113,19 @@
         
         <!-- Main Third Section -->
         <section class="third-section">
-            <div class="wrapper clearfix">
-                <div class="col">
-                    <div class="third-section-img img-object-fit">
-                        <img src="img/mountain.svg" alt="Mountain">
+            <div class="wrapper">
+                <div class="clearfix">
+                    <div class="col">
+                        <img class="third-section-img" src="img/mountain.svg" alt="Mountain">
+                    </div>
+    
+                    <div class="col">
+                        <h2>Scopri il tuo livello iniziale e struttura un piano personalizzato</h2>
+                        <p class="text-body">L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.</p>
+                        <a href="#">Scopri il nostro test di placement</a>
                     </div>
                 </div>
-
-                <div class="col">
-                    <h2>Scopri il tuo livello iniziale e struttura un piano personalizzato</h2>
-                    <p class="text-body">L'esperienza Fluentify parte sempre da un test di placement per avere una chiara visione del tuo inglese, ad oggi.</p>
-                    <a href="#">Scopri il nostro test di placement</a>
-                </div>
+                
             </div>
         </section>
 
@@ -146,14 +147,12 @@
                     <option value="Uomo">Uomo</option>
                    <option value="Donna">Donna</option>
                </select>
-               <span class="button text-body">Visualizza il tuo piano</span>
+               <a class="button" href="#"> Visualizza il tuo piano</a>
             </div>
         </div>
 
         <!-- Footer Fixed Help Button -->
-        <div class="button button-fixed">
-            <a href="#">Help</a>
-        </div>
+            <a class="button button-fixed" href="#">Help</a>
 
     </footer>
     <!-- FOOTER END -->
